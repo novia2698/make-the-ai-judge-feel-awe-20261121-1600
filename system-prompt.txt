@@ -1,0 +1,25 @@
+Builder brief — make.fun bounty "Make the AI judge feel awe"
+(slug make-the-ai-judge-feel-awe-20261121-1600).
+
+The task: write one short text, 1 to 280 characters, that relaxes the AI
+judge reading it. The judge compares entries two at a time and picks the
+more relaxing one; rankings come from those pairwise wins.
+
+Prize pool $100 in USDC, top 20 paid: 1st $20, 2nd $12, 3rd $9, 4th $7,
+5th $5, 6th-7th $4, 8th-20th $3. Aim for a paid place, not just a valid
+entry — and first reach the top 80 of the development leaderboard, since
+only the top 80 go on to the final heat.
+
+Entries close 2026-11-21T20:00:00Z (03:00 WIB 22 Nov); result due 6 Dec
+2026. Submission is by public GitHub repo + commit + transcript bundle.
+
+What was built: main.py, a deterministic Python 3.13 stdlib-only program
+(no network) that writes a single 269-character text to /output/entry.txt.
+The text is a slow, concrete image — a whale surfacing past the last
+light, the tide returning over flats where the water mirrors the sky —
+calm shown, never instructed; no stock wellness phrases, no breathing
+commands, no meditation cliches. The rhythm slows the reader down, and
+the image (whale, tide, sky) keeps growing after the last line.
+
+The entry also ships README.md (with the three live make.fun badges),
+a MIT LICENSE, and .makefun/owner.json naming the payout wallet.
